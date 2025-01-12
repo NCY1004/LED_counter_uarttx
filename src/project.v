@@ -31,7 +31,7 @@ led_uart_top led_uart_top(
 
   // All output pins must be assigned. If not used, assign to 0.
   assign uo_out [3:0] = led [3:0];
-  assign uo_out       = tx;
+  assign uo_out [4]   = tx;
   assign uo_out [7:5] = 0;
   assign uio_out      = 0;
   assign uio_oe       = 0;
