@@ -17,20 +17,27 @@ module tt_um_4bits_uart (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+wire [3:0] led;
+wire       tx; 
+
 led_uart_top led_uart_top(
   .clk(clk),
   .reset(rst_n),
-  .led(uo_out[3:0]),
-  .tx(uo_out[4])
-
+  .led(led[3:0]),
+  .tx(tx)
 );
 
+
+
   // All output pins must be assigned. If not used, assign to 0.
+  assign uo_out [3:0] = led [3:0];
+  assign uo_out       = tx;
   assign uo_out [7:5] = 0;
-  assign uio_out = 0;
-  assign uio_oe  = 0;
+  assign uio_out      = 0;
+  assign uio_oe       = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, ui_in [7:0], uio_in[7:0],  1'b0};
+  wire [14:0] unused;
+  assign unused = &{ena, ui_in [7:0], uio_in[7:0]};
 
 endmodule
