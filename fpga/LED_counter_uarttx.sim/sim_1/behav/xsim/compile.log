@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/qingteng/Projects/LED_counter_uarttx/src/led_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/qingteng/Projects/LED_counter_uarttx/src/led_uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-311] analyzing module led_uart_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/qingteng/Projects/LED_counter_uarttx/src/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/qingteng/Projects/LED_counter_uarttx/fpga/LED_counter_uarttx.srcs/sim_1/imports/new/led_uart_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_uart_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/qingteng/Projects/LED_counter_uarttx/fpga/LED_counter_uarttx.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

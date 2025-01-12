@@ -1,0 +1,4 @@
+Running: xsim.dir/led_uart_tb_behav/xsimk -simmode gui -wdb led_uart_tb_behav.wdb -simrunnum 0 -socket 55385
+Design successfully loaded
+Design Loading Memory Usage: 39104 KB (Peak: 39104 KB)
+Design Loading CPU Usage: 20 ms

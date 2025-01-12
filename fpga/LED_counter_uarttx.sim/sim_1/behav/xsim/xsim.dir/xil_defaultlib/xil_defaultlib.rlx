@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/qingteng/Projects/LED_counter_uarttx/fpga/LED_counter_uarttx.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+/home/qingteng/Projects/LED_counter_uarttx/fpga/LED_counter_uarttx.srcs/sim_1/imports/new/led_uart_tb.v,1736510551,verilog,,,,led_uart_tb,,,,,,,,
+/home/qingteng/Projects/LED_counter_uarttx/src/led_counter.v,1736498059,verilog,,/home/qingteng/Projects/LED_counter_uarttx/src/led_uart_top.v,,led_counter,,,,,,,,
+/home/qingteng/Projects/LED_counter_uarttx/src/led_uart_top.v,1736510539,verilog,,/home/qingteng/Projects/LED_counter_uarttx/src/uart_tx.v,/home/qingteng/Projects/LED_counter_uarttx/src/led_counter.v;/home/qingteng/Projects/LED_counter_uarttx/src/uart_tx.v,led_uart_top,,,,,,,,
+/home/qingteng/Projects/LED_counter_uarttx/src/uart_tx.v,1736498012,verilog,,/home/qingteng/Projects/LED_counter_uarttx/fpga/LED_counter_uarttx.srcs/sim_1/imports/new/led_uart_tb.v,,uart_tx,,,,,,,,
