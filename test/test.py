@@ -38,3 +38,9 @@ async def test_project(dut):
 
     # Keep testing the module by changing the input values, waiting for
     # one or more clock cycles, and asserting the expected output values.
+
+    # Simulation for 2 seconds
+    dut._log.info("Simulating for 2 seconds")
+    await Timer(2, units="sec")
+
+    dut._log.info("Simulation complete")
