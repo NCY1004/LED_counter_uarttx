@@ -3,7 +3,7 @@
 
 import cocotb
 from cocotb.clock import Clock
-from cocotb.triggers import ClockCycles, timer
+from cocotb.triggers import ClockCycles, Timer
 
 
 @cocotb.test()
