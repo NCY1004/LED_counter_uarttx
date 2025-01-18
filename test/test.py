@@ -41,6 +41,6 @@ async def test_project(dut):
 
     # Simulation for 2 seconds
     dut._log.info("Simulating for 2 seconds")
-    await Timer(2, units="sec")
+    await Timer(1.1, units="sec")
 
     dut._log.info("Simulation complete")

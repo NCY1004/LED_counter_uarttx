@@ -23,14 +23,21 @@ wire       tx;
 led_uart_top led_uart_top(
   .clk(clk),
   .reset(rst_n),
-  .led(led[3:0]),
+  .led[3](led[3]),
+  .led[2](led[2]),
+  .led[1](led[1]),
+  .led[0](led[0]),
   .tx(tx)
 );
 
 
 
   // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out [3:0] = led [3:0];
+  assign uo_out [3] = led [3];
+  assign uo_out [2] = led [2];
+  assign uo_out [1] = led [1];
+  assign uo_out [0] = led [0];
+
   assign uo_out [4]   = tx;
   assign uo_out [7:5] = 0;
   assign uio_out      = 0;
